@@ -5,15 +5,17 @@
 
 # SQL Functions
 
-Introduction 
+## Introduction 
+
 In this assignment, I will explain when user defined functions (UDF) are useful, as well as the different types that can be utilized within SQL. 
-SQL UDF
+
+## SQL UDF
 UDFs are useful when a SQL user is trying to perform an action within SQL multiple times. By defining a new function, executing functions is quicker than writing out code to execute multiple functions and it makes the code easier to read by another user. 
-Scalar Function 
+
+## Scalar Function 
 Scalar functions are a UDF that returns a singular value, such as the weight of produce purchased at a supermarket. In Figure 1, the format for creating a scalar function is shown (SQL Server Scalar Functions, https://www.sqlservertutorial.net/sql-server-user-defined-functions/sql-server-scalar-functions/) (External Link). 
- 
-Figure 1: Scalar Function (SQL Server Scalar Functions, https://www.sqlservertutorial.net/sql-server-user-defined-functions/sql-server-scalar-functions/ ) (External Link)
-Multi-Statement Function 
+![Figure 1](https://github.com/itsanyamarie/DBFoundations-Module07/blob/main/ScalarUDFImage.jpg)
+
 Next, a multi-statement function returns rows within a table. As seen in Figure 2, the table structure is defined by the user within the function. This function benefits the user by allowing the user to make modifications a complicated resulting table (SQL Server multi-statement table-valued functions, https://www.sqlshack.com/sql-server-multi-statement-table-valued-functions/) (External Link).
  
 Figure 2: Multi-Statement Functions (SQL Server multi-statement table-valued functions, https://www.sqlshack.com/sql-server-multi-statement-table-valued-functions/ ) (External Link)
